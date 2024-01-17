@@ -1,0 +1,36 @@
+.d1, .d2, .d3{
+    width: 350px;
+    border: 2px solid red;
+    float: none;
+   
+}
+
+#d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8, #d9{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+}
+
+#d2{
+    float: left;
+}
+
+#d5{
+    float: right;
+}
+
+#d6{
+    clear: right;
+}
+
+#d7{
+    float: left;
+}
+
+#d8{
+    float: right;
+}
+
+#d9{
+    clear: both;
+}

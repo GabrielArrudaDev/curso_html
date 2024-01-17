@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="descrição legal da minha página">
+        <meta name="author" content="Gabriel Arruda">
+        <meta name="keywords" content="html, css, javascript">
+        <link rel="stylesheet" href="float.css">
+        
+    <title>Position</title>
+
+    <style>
+        body{
+            margin-top: 0%;
+        }
+        #div1 {
+            background-color: rgba(255, 0, 0, .5);
+            padding: 10px;
+            width: 50%;
+            position: sticky;
+            height: 200px;
+            top: 0;
+            bottom: 0;
+        }
+
+        #div2 {
+            background-color: rgba(0, 255, 0, .5);
+            padding: 10px;
+            width: 80%;
+            height: 50px;
+            position: static;
+
+        }
+
+        #div3 {
+            background-color: rgba(0, 0, 255, .5);
+            padding: 10px;
+            width: 30px;
+            height: 30px;
+            position: static;
+            top: 20px;
+            right: 0;
+        }
+
+        .whatsapp a{
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            padding: 20px;
+            background-color: green;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            width: 25px;
+            height: 25px;
+            text-decoration: none;
+        }
+
+        nav{
+            background-color: #656565;
+            padding: 20px;  
+            margin: 0%;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul{
+        text-align: center;
+        margin-right: 15px;
+        }
+
+        nav ul li{
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav a{
+            background-color: #ababab;
+            padding: 10px;
+            word-spacing: 5px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover{
+            background-color: #656565;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">a</a></li>
+            <li><a href="">a</a></li>
+            <li><a href="">a</a></li>
+            <li><a href="">a</a></li>
+            <li><a href="">a</a></li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo? Id accusantium doloremque eaque ad rerum
+        assumenda voluptatem ea rem iusto officiis! Pariatur possimus placeat facilis perspiciatis ipsum odio nulla.</p>
+
+    <div id="div1">
+        1
+        <div id="div2">
+            2
+            <div id="div3">3</div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send/?phone=15981537286&text&type=phone_number&app_absent=0" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore magnam nihil blanditiis, ut
+        maiores ducimus molestias ea voluptate ullam iusto incidunt, aut velit voluptatibus expedita laudantium numquam!
+        Quod, officia?</p>
+</body>
+</html>
